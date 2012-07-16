@@ -57,3 +57,9 @@ nmap <C-c>r <Plug>SetTmuxVars
 let vimclojure#HighlightBuiltins=1
 let vimclojure#ParenRainbow=1
 
+" Load current file into clojure repl
+function! LoadFileIntoRepl()
+    :call Send_to_Tmux("(load-file \"" . expand('%:p') . "\")\n")
+endfunction
+:map <leader>g :call LoadFileIntoRepl()<cr>
+

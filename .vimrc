@@ -27,6 +27,8 @@ function! LoadHtmlFtl()
 endfunction
 au BufNewFile,BufRead *.ftl call LoadHtmlFtl()
 
+au BufNewFile,BufRead *.js.twig set filetype=javascript
+
 set incsearch
 set hlsearch
 set ignorecase smartcase

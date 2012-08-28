@@ -28,6 +28,7 @@ endfunction
 au BufNewFile,BufRead *.ftl call LoadHtmlFtl()
 
 au BufNewFile,BufRead *.js.twig set filetype=javascript
+au BufNewFile,BufRead *.thrift set filetype=thrift
 
 set incsearch
 set hlsearch

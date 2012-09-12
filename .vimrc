@@ -15,7 +15,7 @@ syntax on
 filetype plugin indent on
 set t_Co=256  " 256 colors
 set background=dark
-colorscheme inkpot
+colorscheme solarized
 hi CursorLine cterm=none ctermbg=236
 
 " Freemarker highlighting

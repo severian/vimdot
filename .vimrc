@@ -9,6 +9,7 @@ set softtabstop=4
 set autoindent
 set laststatus=2
 set showcmd
+set nu
 let mapleader=","
 
 syntax on

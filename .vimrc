@@ -10,6 +10,7 @@ set autoindent
 set laststatus=2
 set showcmd
 set nu
+set ruler
 let mapleader=","
 
 syntax on

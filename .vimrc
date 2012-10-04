@@ -29,7 +29,14 @@ au BufNewFile,BufRead *.ftl call LoadHtmlFtl()
 
 au BufNewFile,BufRead *.js.twig set filetype=javascript
 au BufNewFile,BufRead *.thrift set filetype=thrift
-au BufNewFile,BufRead *.proto set filetype=proto
+
+function! SetupProto()
+    set filetype=proto
+    set tabstop=2
+    set shiftwidth=2
+    set softtabstop=2
+endfunction
+au BufNewFile,BufRead *.proto call SetupProto()
 
 set incsearch
 set hlsearch

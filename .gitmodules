@@ -22,6 +22,7 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
+<<<<<<< Updated upstream
 [submodule "bundle/vim-foreplay"]
 	path = bundle/vim-foreplay
 	url = git://github.com/tpope/vim-foreplay.git
@@ -34,3 +35,6 @@
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
+[submodule "bundle/nginx.vim"]
+	path = bundle/nginx.vim
+	url = https://github.com/vim-scripts/nginx.vim

@@ -39,6 +39,8 @@ function! SetupProto()
 endfunction
 au BufNewFile,BufRead *.proto call SetupProto()
 
+au BufNewFile,BufRead nginx*.conf set filetype=nginx
+
 set incsearch
 set hlsearch
 set ignorecase smartcase

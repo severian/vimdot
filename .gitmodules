@@ -22,7 +22,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
-<<<<<<< Updated upstream
 [submodule "bundle/vim-foreplay"]
 	path = bundle/vim-foreplay
 	url = git://github.com/tpope/vim-foreplay.git
@@ -38,3 +37,6 @@
 [submodule "bundle/nginx.vim"]
 	path = bundle/nginx.vim
 	url = https://github.com/vim-scripts/nginx.vim
+[submodule "bundle/vim-less"]
+	path = bundle/vim-less
+	url = https://github.com/groenewege/vim-less.git

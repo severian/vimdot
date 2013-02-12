@@ -48,7 +48,7 @@ set cursorline
 
 set wildmode=longest,list
 set wildmenu
-set wildignore=out/** " for mekka
+set wildignore=out/**,*/target/** " for mekka
 
 set hidden
 

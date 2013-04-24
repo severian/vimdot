@@ -40,3 +40,6 @@
 [submodule "bundle/vim-less"]
 	path = bundle/vim-less
 	url = https://github.com/groenewege/vim-less.git
+[submodule "bundle/vim-golang"]
+	path = bundle/vim-golang
+	url = git@github.com:jnwhiteh/vim-golang.git

@@ -22,12 +22,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
-[submodule "bundle/vim-foreplay"]
-	path = bundle/vim-foreplay
-	url = git://github.com/tpope/vim-foreplay.git
-[submodule "bundle/vim-classpath"]
-	path = bundle/vim-classpath
-	url = git://github.com/tpope/vim-classpath.git
 [submodule "bundle/rainbow_parentheses.vim"]
 	path = bundle/rainbow_parentheses.vim
 	url = git://github.com/kien/rainbow_parentheses.vim.git
@@ -43,3 +37,6 @@
 [submodule "bundle/vim-golang"]
 	path = bundle/vim-golang
 	url = git@github.com:jnwhiteh/vim-golang.git
+[submodule "bundle/vim-fireplace"]
+	path = bundle/vim-fireplace
+	url = git://github.com/tpope/vim-fireplace.git

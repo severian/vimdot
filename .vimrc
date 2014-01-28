@@ -40,6 +40,8 @@ au BufNewFile,BufRead *.proto call SetupProto()
 
 au BufNewFile,BufRead nginx*.conf set filetype=nginx
 
+au BufNewFile,BufRead *.clj let g:auto_save = 1
+
 set incsearch
 set hlsearch
 set ignorecase smartcase

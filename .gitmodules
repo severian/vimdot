@@ -22,9 +22,6 @@
 [submodule "bundle/mustache"]
 	path = bundle/mustache
 	url = git://github.com/juvenn/mustache.vim.git
-[submodule "bundle/rainbow_parentheses.vim"]
-	path = bundle/rainbow_parentheses.vim
-	url = git://github.com/kien/rainbow_parentheses.vim.git
 [submodule "bundle/vim-clojure-static"]
 	path = bundle/vim-clojure-static
 	url = git://github.com/guns/vim-clojure-static.git
@@ -43,3 +40,6 @@
 [submodule "bundle/vim-auto-save"]
 	path = bundle/vim-auto-save
 	url = git@github.com:vim-scripts/vim-auto-save.git
+[submodule "bundle/vim-niji"]
+	path = bundle/vim-niji
+	url = git@github.com:amdt/vim-niji.git

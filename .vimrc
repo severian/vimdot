@@ -63,6 +63,3 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-au VimEnter *.clj RainbowParenthesesToggle
-au Syntax *.clj RainbowParenthesesLoadRound
-au Syntax *.clj RainbowParenthesesLoadSquare

@@ -1,2 +1,3 @@
-:set guioptions=-r
-:set guioptions-=r
+set guifont=Consolas:h13
+set guioptions=-r
+set guioptions-=r

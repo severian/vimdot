@@ -11,6 +11,7 @@ set laststatus=2
 set showcmd
 set nu
 set ruler
+set visualbell t_vb=
 let mapleader=","
 
 syntax on

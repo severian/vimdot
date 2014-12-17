@@ -1,6 +1,3 @@
-[submodule "bundle/command-t"]
-	path = bundle/command-t
-	url = git://github.com/wincent/Command-T.git
 [submodule "bundle/ftl-vim-syntax"]
 	path = bundle/ftl-vim-syntax
 	url = git://github.com/chaquotay/ftl-vim-syntax.git

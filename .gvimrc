@@ -1,3 +1,3 @@
-set guifont=Consolas:h13
+set guifont=Menlo:h12
 set guioptions=-r
 set guioptions-=r

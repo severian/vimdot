@@ -12,6 +12,7 @@ set showcmd
 set nu
 set ruler
 set visualbell t_vb=
+set autoread
 let mapleader=","
 
 syntax on

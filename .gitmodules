@@ -55,3 +55,6 @@
 [submodule "bundle/scratch"]
 	path = bundle/scratch
 	url = git@github.com:mtth/scratch.vim.git
+[submodule "bundle/vim-nix"]
+	path = bundle/vim-nix
+	url = git@github.com:spwhitt/vim-nix.git

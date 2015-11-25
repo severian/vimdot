@@ -55,3 +55,6 @@
 [submodule "bundle/vim-nix"]
 	path = bundle/vim-nix
 	url = git@github.com:spwhitt/vim-nix.git
+[submodule "bundle/typescript-vim"]
+	path = bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
